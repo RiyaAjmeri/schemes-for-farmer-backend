@@ -12,6 +12,8 @@ import oracle.sql.BLOB;
 @Table(name="Users")
 public class User {
 
+	//surendra
+	//maurya
 	@Column(name="user_id")
 	@Id
 	@GeneratedValue
