@@ -13,12 +13,14 @@
 			<property name="javax.persistence.jdbc.driver"
 				value="oracle.jdbc.OracleDriver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:oracle:thin:@localhost:1522:xe" />
-			<property name="javax.persistence.jdbc.user" value="gladiator" />
-			<property name="javax.persistence.jdbc.password" value="gladiator" />
+				value="jdbc:oracle:thin:@localhost:1520:xe" />
+			<property name="javax.persistence.jdbc.user" value="hr" />
+			<property name="javax.persistence.jdbc.password" value="hr" />
 			<!-- Additional ORM specific settings -->
 			<property name="hibernate.hbm2ddl.auto" value="update" />
+			
 
+			
 			<property name="hibernate.show_sql" value="true" /> <!-- Log generated SQL -->
 		</properties>
 	</persistence-unit>
